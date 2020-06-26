@@ -160,6 +160,7 @@ const LoginScreen = ({navigation}) => {
                   alignItems: 'center',
                   flexDirection: 'row',
                 }}>
+                  {/* This functionality doens't work yet */}
                 <Text style={{color: 'white'}}>Login Automatically</Text>
 
                 <Switch
@@ -196,7 +197,8 @@ const LoginScreen = ({navigation}) => {
               </View>
               <TouchableOpacity>
                 <View style={{alignItems: 'center'}}>
-                  <Text style={{color: 'white'}}>Forgot Your Password</Text>
+                  {/* This functionality doens't work yet */}
+                  <Text style={{color: 'white'}}>Forgot Your Password</Text> 
                 </View>
               </TouchableOpacity>
             </View>
